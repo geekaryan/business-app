@@ -12,10 +12,10 @@ body {
 }
 
 .girlimg {
-    height: 100vh;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
     width: auto;
-    display: flex;
-    margin: 0 0 0 6px;
 }
 
 .main {
@@ -55,7 +55,7 @@ body {
 .Footer {
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     background-color: rgb(199, 184, 184);
     color: white;
     text-align: center;
