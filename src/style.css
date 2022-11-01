@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(219, 217, 217);
+}
+
+.container1 {
+    align-items: center;
+}
+
+.girlimg {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    margin: 0 0 0 6px;
+}
+
+.main {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 2.5rem;
+}
+
+.skill {
+    font-size: 1.3rem;
+    color: green;
+}
+
+.site {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.email-btn {
+    width: 289px;
+    height: 26px;
+    margin-top: 12px;
+    font-size: 1.2rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(199, 184, 184);
+    color: white;
+    text-align: center;
+}
